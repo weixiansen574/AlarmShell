@@ -1,6 +1,6 @@
 # 使用说明
 ## 原理
-通过hook系统闹钟的AlarmAlertFullScreenActivity，在这个Activity启动时，根据你设置的闹钟配置来执行特定的Shell脚本。
+通过hook系统闹钟的AlarmAlertFullScreenActivity，在这个Activity启动时，根据你设置的闹钟备注来执行特定的Shell脚本。
 ## 可靠性
 可靠性是开发此模块的缘由，试过很多定时任务的APP，可能因各种原因（如后台被杀）导致到点没有执行我下的任务。  
 我想到系统里的闹钟，它可从来没有失误过，即使你把它的后台杀了，关机也能自动开机来提醒你。再想到LSPosed可以给APP添砖加瓦，所以就有了此模块，原理见上。  
