@@ -10,7 +10,7 @@
 将Shell脚本放入`/data/user/0/com.android.deskclock/files/shell/`目录，如果没有`shell`文件夹，请自行创建一个。  
 如果你想添加一个名为helloworld的Shell脚本，那么你应该放到这里：`/data/user/0/com.android.deskclock/files/shell/helloworld.sh`  
 ### 脚本文件与闹钟备注
-新建一个脚本文件，假设你要创建的是"helloworld.sh"，创建完成后，再去新建一个备注与脚本文件名一样的闹钟，闹钟备注名就应该是"helloworld.sh"。闹钟应该铃声为无铃声且取消掉震动（如果你乐意也无所谓）。  
+新建一个脚本文件，假设你要创建的是"helloworld.sh"，创建完成后，再去新建一个备注与脚本文件名一样的闹钟，闹钟备注名就应该是"helloworld.sh"。闹钟应该铃声为无铃声且取消掉震动（如果你乐意让它响啊也无所谓）。  
 ![闹钟设置](闹钟设置.png)
 ### 授予root权限
 脚本文件一律使用ROOT执行！所以必须先授予闹钟ROOT权限！  
